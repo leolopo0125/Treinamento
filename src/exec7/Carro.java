@@ -23,13 +23,14 @@ public Carro() {
 	
 }
 
-public Carro(String modCarro, String placaCarro, int velMax, String combustivel, double valor,String cor) {
+public Carro(String modCarro, String placaCarro, int velMax, String combustivel, double valor,String cor,boolean vendido) {
 	this.modCarro = modCarro;
 	this.placaCarro = placaCarro;
 	this.velMax = velMax;
 	this.combustivel = combustivel;
 	this.valor = valor;
 	this.cor = cor;
+	this.vendido = vendido;
 
 }
 
